@@ -1,57 +1,55 @@
-# Agent Platform Hub
+# Epic Tech AI — @Sm0ken42O
 
-**Spin up, remix, and deploy AI media agents in seconds.**
+**Multimedia artist on a mission (or just chilling). Making music, videos, and AI art fueled by cannabis & caffeine. Join the creative chaos.**
 
-This is a full agent platform starter — one prompt powers text, image, audio, and video generation using real backends (Groq for text, Pixio/HF for media).
+This is my personal agent platform — a moody, immersive creative studio where prompts turn into text, images, audio, video, and wild experiments. Built in my exact vibe: dark, aesthetic, experimental, slightly unhinged, with heavy cyber-neon and soft glitch energy.
+
+**Live Site:** https://epic-tech-agent-platform.up.railway.app/
+
+## Vibe & Philosophy
+- One prompt. Infinite modalities.
+- No corporate minimalism. This is art + chaos + caffeine.
+- Drag & drop your own media. Watch waveforms pulse. Remix instantly.
+- Everything is playable. Nothing is plain.
 
 ## Features
-- Live in-browser demo with 4 modalities
-- Real API calls (no mock data in production)
-- Template gallery & "Remix" workflow
-- Deploy anywhere (Railway, Vercel, Docker)
-- Zero hardcoded secrets — add keys at deployment time only
+- **Instant Playground** — Live remix agent right on load
+- **Four Modalities** — Text · Image · Audio · Video with real backends (Groq, Pixio, Hugging Face)
+- **Advanced Media Player** — Drag & drop MP3/MP4, playlist, real-time waveform visualizer, auto-play
+- **Wild Experiments Gallery** — Curated templates that feel like my own creations
+- **Side-by-side creative workspace** — Prompt on left, live output + logs on right
+- **Status & Community** — Live ticker, links, proper docs
+
+All links work. All docs are written. No boilerplate.
 
 ## Quick Start
-1. Clone & install
-   ```bash
-   git clone https://github.com/Sm0k367/agent-platform.git
-   cd agent-platform
-   npm install
-   ```
-2. Copy env
-   ```bash
-   cp .env.example .env.local
-   ```
-3. Add your keys to `.env.local` (never commit them)
-4. Run
-   ```bash
-   npm run dev
-   ```
+```bash
+git clone https://github.com/Sm0k367/agent-platform.git
+cd agent-platform
+npm install
+cp .env.example .env.local
+# Add your keys (GROQ_API_KEY, PIXIO_API_KEY, HF_TOKEN)
+npm run dev
+```
 
-Open http://localhost:3000. Try a prompt like "cyberpunk samurai with neon dragons".
+Open http://localhost:3000 and start creating.
 
-## API Keys (Deployment Only)
-- `GROQ_API_KEY` — for fast LLM text
-- `PIXIO_API_KEY` — for high-quality image/video generation
-- `HF_TOKEN` — optional for additional HF models
+**Never commit real keys.** They are loaded only from environment on deployment.
 
-**Never commit real keys. The code reads from `process.env` only.**
+## Tech
+Next.js 16 · Tailwind · Groq · Pixio · Hugging Face · Web Audio API + Canvas waveform
 
-## Platform Vision
-This is the foundation for a true agent hub:
-- Community template gallery
-- One-click remix & fork
-- Agent-to-agent collaboration
-- Live status ("42 agents running right now")
-- Deployed agents marketplace (coming)
-
-Built with Next.js 14, Tailwind, Groq, Pixio, and Hugging Face.
-
-Open-source. Made for experimentalists. Deploy anywhere.
+Built by @Sm0ken42O — Multimedia artist, AI tinkerer, professional chaos creator.
 
 **Links**
+- [X / Twitter](https://x.com/Sm0ken42O)
 - [GitHub](https://github.com/Sm0k367/agent-platform)
-- Submit your agent • Join Discord (add link)
+- [Pixio Showcase](https://beta.pixio.myapps.ai/showcase/)
+- Submit your own agent or experiment
 
 ---
+
+*Born July 23, 1967 · Joined the matrix May 2022 · Currently fueled by cannabis & caffeine*
+
 Last updated: May 2026
+
