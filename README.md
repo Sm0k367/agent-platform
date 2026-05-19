@@ -49,7 +49,7 @@ Built by @Sm0ken42O — Multimedia artist, AI tinkerer, professional chaos creat
 
 ---
 
-*Born July 23, 1967 · Joined the matrix May 2022 · Currently fueled by cannabis & caffeine*
+*Born July 23, 1967 · Happy Birthday King*
 
 Last updated: May 2026
 
